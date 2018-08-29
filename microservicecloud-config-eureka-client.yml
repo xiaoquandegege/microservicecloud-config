@@ -32,4 +32,4 @@ eureka:
         fetch-registry: false     #false表示自己端就是注册中心，我的职责就是维护服务实例，并不需要去检索服务
         service-url:
             defaultZone: http://192.168.79.1:7001/eureka/
-    hostname: eureka-server-test
+    hostname: eureka-server
